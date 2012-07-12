@@ -218,10 +218,7 @@ var Lini = {
 		*/
 		initProjects: function(ctx) {
 			
-			// shuffler
-			jQuery(".projects").each(function(i,el){
-				jQuery(el).shuffler();
-			});
+			
 		}
 }
 jQuery(document).ready(function(){
