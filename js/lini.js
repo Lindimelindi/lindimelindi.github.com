@@ -218,7 +218,11 @@ var Lini = {
 		*/
 		initProjects: function(ctx) {
 			
-			
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide"
+			  });
+			});
 		}
 }
 jQuery(document).ready(function(){
