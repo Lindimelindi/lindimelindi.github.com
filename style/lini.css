@@ -188,7 +188,7 @@ ul.projects {
 	background-position:left top;
 	background-repeat:repeat-x;
 }
-ul.projects li {
+ul.projects > li {
 	padding:0 0 10px 0;
 	margin:0 0 45px 0;
 	background-image:url('img/divider.gif');
