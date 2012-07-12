@@ -38,6 +38,7 @@ default:"number"===typeof h&&k.flexAnimate(h,!0)}}})(jQuery);
 
 $(function(){
 	$(".flexslider").flexslider({
-		animation: "slide"
+		animation: "slide",
+		controlNav: false
 	})
 })
