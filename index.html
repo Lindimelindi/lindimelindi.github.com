@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 	<head>
 		<title>Melinda Lini. Grafik Design. Interaction Design.</title>
 		<!-- meta -->
@@ -10,9 +10,11 @@
 		<!-- favicon -->	
 		<link rel="shortcut icon" href="favicon.ico" />
 		<!-- javascript -->
-		<script type="text/javascript" src="js/lini.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 		<!-- style -->
 		<link href="style/lini.css" rel="stylesheet" type="text/css" />	
+		<link href="style/flexslider.css" rel="stylesheet" type="text/css" />	
 	</head>
 	<body>
 		<!-- begin: page -->
@@ -41,8 +43,12 @@
 			<li>
 				<h3>Gartenstadt Schlieren</h3>
 				<p>Eine Plattform zur Vermarktung von Wohnungen und Geschäftsflächen, <a href="http://www.gartenstadt-schlieren.ch" title="Gartenstadt Schlieren">www.gartenstadt-schlieren.ch</a>  (Screen Concept 2012)</p>
-				<img src="resources/gartenstadt_1.jpg" alt="Gartenstadt Schlieren"/>
-                <img src="resources/gartenstadt_2.jpg" alt="Gartenstadt Schlieren"/>
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="resources/gartenstadt_1.jpg" alt="Gartenstadt Schlieren"/></li>
+						<li><img src="resources/gartenstadt_2.jpg" alt="Gartenstadt Schlieren"/></li>
+					</ul>
+				</div>
 			</li><!-- end: project -->
 			<!-- begin: project -->
 			<li>
