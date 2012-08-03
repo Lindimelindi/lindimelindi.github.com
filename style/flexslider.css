@@ -39,7 +39,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider {margin: 0 0 60px; background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;}
+.flexslider {margin: 0; background: #fff; position: relative; zoom: 1;}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
@@ -48,11 +48,11 @@ html[xmlns] .slides {display: block;}
 
 
 /* Direction Nav */
-.flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(images/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
-.flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
-.flex-direction-nav .flex-prev {left: -36px;}
-.flexslider:hover .flex-next {opacity: 0.8; right: 5px;}
-.flexslider:hover .flex-prev {opacity: 0.8; left: 5px;}
+.flex-direction-nav a {width: 150px; height: 150px; margin: -20px 0 0; display: block; background: url(./img/dot.svg) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+.flex-direction-nav .flex-next {background-position: 100% 0; right: -90px; }
+.flex-direction-nav .flex-prev {left: -80px;}
+.flexslider:hover .flex-next {opacity: 0.8; right: -110px;}
+.flexslider:hover .flex-prev {opacity: 0.8; left: -100px;}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
 .flex-direction-nav .disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
 

@@ -39,6 +39,8 @@ default:"number"===typeof h&&k.flexAnimate(h,!0)}}})(jQuery);
 $(function(){
 	$(".flexslider").flexslider({
 		animation: "slide",
-		controlNav: false
+		controlNav: false,
+    directionNav: true,
+    slideshow: false
 	})
 })
